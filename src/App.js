@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Layout from './components/Layout/Layout';
+import Layout from './components/Layout/Layout.js';
 import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
 
 
@@ -13,7 +13,7 @@ class App extends Component {
         </Layout>
       </div>
     );
-  }
+  };
 }
 
 export default App;
